@@ -1,0 +1,12 @@
+# submodules
+submodules/*
+
+# build artifacts
+**/build*/
+
+# dependency mirror
+**/managed_components/
+
+sdkconfig.old
+sdkconfig
+
