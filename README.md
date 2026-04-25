@@ -1,8 +1,8 @@
 # Embedded Applications Lab
 
-![Overview](README_assets/Overview.png)
-
 A set of working applications based on a set of reusable libraries across MCU, Linux, and RTOS targets.
+
+![Overview](README_assets/Overview.png)
 
 ## Applications
 
