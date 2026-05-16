@@ -379,7 +379,7 @@
 
 <h1 id="embedded-applications-lab">Embedded Applications Lab</h1>
 <p>A set of working applications based on a set of reusable libraries across MCU, Linux, and RTOS targets.</p>
-<p><img alt="Overview" src="assets/Overview.png" /></p>
+<p><img alt="Overview" src="assets/Overview.svg" /></p>
 <h2 id="applications">Applications</h2>
 <p>Complete, runnable applications that exercise the stack on real hardware. </p>
 <table>
@@ -395,8 +395,8 @@
 <td>drives an MCP4728 quad-DAC over I2C, generating four simultaneous 12-bit analog waveforms across the 0–3.3 V range at a 100 Hz update rate.</td>
 </tr>
 <tr>
-<td><code>TBD</code></td>
-<td>More to come across the embedded / IoT / control-systems space</td>
+<td><a href="https://github.com/david-erb/didcot"><code>didcot</code></a></td>
+<td>samples four analog channels continuously on an nRF5340, frames the data into a buffer queue, and streams it over USB CDC-ACM to a Linux server; the server distributes frames over a local WebSocket connection to a browser trend display.</td>
 </tr>
 </tbody>
 </table>
