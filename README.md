@@ -2,7 +2,7 @@
 
 A set of working applications based on a set of reusable libraries across MCU, Linux, and RTOS targets.
 
-![Overview](README_assets/Overview.png)
+![Overview](README_assets/Overview.svg)
 
 ## Applications
 
@@ -11,7 +11,7 @@ Complete, runnable applications that exercise the stack on real hardware.
 | Application | Description |
 |---|---|
 | [`champaign`](https://github.com/david-erb/champaign) | drives an MCP4728 quad-DAC over I2C, generating four simultaneous 12-bit analog waveforms across the 0–3.3 V range at a 100 Hz update rate.  |
-| `TBD` | More to come across the embedded / IoT / control-systems space |
+| [`didcot`](https://github.com/david-erb/didcot) | samples four analog channels continuously on an nRF5340, frames the data into a buffer queue, and streams it over USB CDC-ACM to a Linux server; the server distributes frames over a local WebSocket connection to a browser trend display. |
 
 ## Libraries
 

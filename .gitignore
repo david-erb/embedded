@@ -78,3 +78,4 @@ venv/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.gitignore_lib

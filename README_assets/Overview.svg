@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 254" width="820" height="254" font-family="Arial, sans-serif">
+
+  <rect width="820" height="254" fill="white"/>
+
+  <!-- Column headers -->
+  <text x="97"  y="22" text-anchor="middle" font-size="14" fill="#333">Run-ready Apps</text>
+  <text x="305" y="22" text-anchor="middle" font-size="14" fill="#333">Async Tasking</text>
+  <text x="513" y="22" text-anchor="middle" font-size="14" fill="#333">Platform Ports</text>
+  <text x="721" y="22" text-anchor="middle" font-size="14" fill="#333">Foundation Libraries</text>
+
+  <!-- horizontal separator: 10px below header baseline, 10px above boxes -->
+  <line x1="10"  y1="32" x2="810" y2="32"  stroke="#ccc" stroke-width="1"/>
+  <!-- vertical separators between columns -->
+  <line x1="202" y1="42" x2="202" y2="254" stroke="#ccc" stroke-width="1"/>
+  <line x1="410" y1="42" x2="410" y2="254" stroke="#ccc" stroke-width="1"/>
+  <line x1="618" y1="42" x2="618" y2="254" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Run-ready Apps -->
+  <rect x="10"  y="42" width="175" height="56" rx="8" fill="white" stroke="#4da8d6" stroke-width="1.5"/>
+  <text x="97"  y="65"  text-anchor="middle" font-size="13" font-weight="bold" fill="#222">champaign</text>
+  <text x="97"  y="82"  text-anchor="middle" font-size="11" fill="#555">quad DAC waveform driver</text>
+
+  <rect x="10"  y="112" width="175" height="56" rx="8" fill="white" stroke="#4da8d6" stroke-width="1.5"/>
+  <text x="97"  y="135" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">didcot</text>
+  <text x="97"  y="152" text-anchor="middle" font-size="11" fill="#555">ADC streaming pipeline</text>
+
+  <!-- Async Tasking -->
+  <rect x="218" y="42" width="175" height="82" rx="8" fill="white" stroke="#4da8d6" stroke-width="1.5"/>
+  <text x="305" y="65"  text-anchor="middle" font-size="13" font-weight="bold" fill="#222">dtmc_services</text>
+  <text x="305" y="82"  text-anchor="middle" font-size="11" fill="#555">data rate compensation,</text>
+  <text x="305" y="96"  text-anchor="middle" font-size="11" fill="#555">bitstream, message framing,</text>
+  <text x="305" y="110" text-anchor="middle" font-size="11" fill="#555">httpd, websocket</text>
+
+  <!-- Platform Ports -->
+  <rect x="426" y="42"  width="175" height="56" rx="8" fill="white" stroke="#4da8d6" stroke-width="1.5"/>
+  <text x="513" y="65"  text-anchor="middle" font-size="13" font-weight="bold" fill="#222">dtmc_espidf</text>
+  <text x="513" y="82"  text-anchor="middle" font-size="11" fill="#555">Espressif  FreeRTOS port</text>
+
+  <rect x="426" y="112" width="175" height="56" rx="8" fill="white" stroke="#4da8d6" stroke-width="1.5"/>
+  <text x="513" y="135" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">dtmc_linux</text>
+  <text x="513" y="152" text-anchor="middle" font-size="11" fill="#555">Linux/Raspberry Pi port</text>
+
+  <rect x="426" y="182" width="175" height="56" rx="8" fill="white" stroke="#4da8d6" stroke-width="1.5"/>
+  <text x="513" y="205" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">dtmc_zephyr</text>
+  <text x="513" y="222" text-anchor="middle" font-size="11" fill="#555">nrf5340 Zephyr port</text>
+
+  <!-- Foundation Libraries -->
+  <rect x="634" y="42"  width="175" height="56" rx="8" fill="white" stroke="#4da8d6" stroke-width="1.5"/>
+  <text x="721" y="65"  text-anchor="middle" font-size="13" font-weight="bold" fill="#222">dtmc_base</text>
+  <text x="721" y="82"  text-anchor="middle" font-size="11" fill="#555">portable embedded layer</text>
+
+  <rect x="634" y="112" width="175" height="56" rx="8" fill="white" stroke="#4da8d6" stroke-width="1.5"/>
+  <text x="721" y="135" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">dtcore</text>
+  <text x="721" y="152" text-anchor="middle" font-size="11" fill="#555">platform-agnostic primitives</text>
+
+</svg>
